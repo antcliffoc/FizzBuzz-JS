@@ -22,19 +22,3 @@ var fizzBuzz = new FizzBuzz();
 for (var i = 1; i <= 100; i++) {
   console.log(fizzBuzz.play(i));
 }
-
-// FizzBuzz.prototype = {
-//   isFizz: function isFizz(number) {
-//       if (number % 3 === 0) {
-//         return true
-//       } else {
-//         return false
-//       };
-//   isBuzz: function isBuzz(number) {
-//     if (number % 5 === 0) {
-//       return true
-//     } else {
-//       return false
-//     };
-//   isFizzBuzz:
-// }
